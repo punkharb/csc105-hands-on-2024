@@ -1,0 +1,16 @@
+.top {
+    color: black;
+}
+button {
+    background-color: rgb(27, 202, 0);
+    border: solid black;
+    margin: 10px;
+}
+h2 {
+    color: black;
+}
+input {
+    background-color: rgb(255, 255, 255);
+    color : black;
+    font-size: large;
+}
