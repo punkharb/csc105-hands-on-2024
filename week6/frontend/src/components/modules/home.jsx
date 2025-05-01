@@ -14,7 +14,7 @@ const Home = () => {
   });
 
   const [error, setError] = useState("");
-  const URL = "https://todo-list-jy1p.onrender.com";
+  const URL = "http://localhost:8000";
 
   const fetchTodos = async () => {
     try {
@@ -109,7 +109,7 @@ const Home = () => {
           {error && <p className="text-red-500 text-sm my-2">{error}</p>}
 
           {data.map((item) => (
-            <div key={item.id} className="mb-2">
+            <div key={item.id} classN ame="mb-2">
               <TodoList
                 title={item.name}
                 isSuccess={successTodos}
